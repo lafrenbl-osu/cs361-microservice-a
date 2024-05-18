@@ -1,7 +1,7 @@
 runtime: ruby
 env: flex
 
-entrypoint: bundle exec rails server -p $PORT
+entrypoint: ./bin/app-engine-entrypoint
 
 runtime_config:
   operating_system: "ubuntu22"
