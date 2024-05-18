@@ -1,2 +1,10 @@
-runtime: ruby32
-entrypoint: rails server
+runtime: ruby
+env: flex
+
+entrypoint: bundle exec rails server -p $PORT
+
+runtime_config:
+  operating_system: "ubuntu22"
+
+env_variables:
+  SECRET_KEY_BASE: c1bb0952fd137f93af5ec0f35236173de2129cd2d7896db770c0a45589e6cef4fbbe7614b279a32475ed36fc15d224e35b59fbb57ec83f8721f6b3ac94596f18
