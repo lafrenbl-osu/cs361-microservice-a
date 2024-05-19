@@ -99,3 +99,7 @@ response = open('http://microservice.url/ingredients.json').read
 ingredient_json = JSON.parse(response)
 ingredient_json["name"] # ingredient name
 ```
+
+### UML Diagram
+
+![UML Diagram](https://github.com/lafrenbl-osu/cs361-microservice-a/blob/main/doc/a8-uml.drawio.png?raw=true)
