@@ -10,7 +10,7 @@ response.
 
 Communication takes place via HTTP requests.
 
-### GET /ingredients.json
+### `GET /ingredients.json`
 
 This endpoint returns a list of all ingredients in the microservice.
 
@@ -47,7 +47,7 @@ data.each do |ingredient_json|
 end
 ```
 
-### POST /ingredients.json
+### `POST /ingredients.json`
 
 This endpoint is for creating an ingredient within the system.
 
@@ -72,7 +72,7 @@ if r.status_code == 200:
     ingredient_id = response_data["id"]
 ```
 
-### GET /ingredients/:id.json
+### `GET /ingredients/:id.json`
 
 Get the details for an ingredient for a given ID.
 
